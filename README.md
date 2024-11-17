@@ -10,6 +10,7 @@
 
 ### Build the docker image
 > [!caution]
-> [Linux only] Change install script permission before build
+> [Linux only] Change install script permission before build  
 > `chmod +x docker/scripts/build_opencv.sh`
+
 `docker build -t opencv_cuda ./docker`
