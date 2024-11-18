@@ -1,11 +1,10 @@
-# OpenCV Python Environment with CUDA
+# OpenCV Python Environments with CUDA
 
 ## Requirements
 - Docker Engine
 - Nvidia Container Toolkit
 
-
-## Normal Docker Environment
+## Docker Environment
 
 ### Build the docker image
 
@@ -17,3 +16,7 @@
 
 ### Open bash in container
 `docker run -it -v .:/root --rm --gpus all opencv_cuda /bin/bash`
+
+## Devcontainer Environments
+This environment Requirs [Visual Studio Code](https://code.visualstudio.com/) and [Devcontainer Extention](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).  
+After install them, please 'Reopen in container' to enter CUDA enabled OpenCV envirionment.
